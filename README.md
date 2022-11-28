@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+IIC is shortcut for "Is it cracked". Project was created to repace crackwatch
+and extend it's database for other types of software.
 
-Things you may want to cover:
+* Ruby version -> 3.0.2
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* System dependencies -> Rails, divide
