@@ -11,3 +11,6 @@ System requirments:
 
 To run server I reccomend Linux Ubuntu or another distro that has apt
 package manager (I've tried with pacman but there was problems with rails).
+You can also use WSL if you like or install it on pure windows but I haven't
+tested if they are working correctly.
+
