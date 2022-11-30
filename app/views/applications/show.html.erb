@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @application %>
+
+<div>
+  <%= link_to "Back to applications", applications_path %> |
+  <% if user_signed_in? %> <!-- SHOW THIS OPTIONS ONLY IF USER IS SIGNED IN -->
+  <%= link_to "Edit this application", edit_application_path(@application) %>
+  <%= button_to "Destroy this application", @application, method: :delete %>
+  <% end %>
+</div>
