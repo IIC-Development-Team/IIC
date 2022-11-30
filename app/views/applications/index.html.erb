@@ -10,5 +10,6 @@
     </p>
   <% end %>
 </div>
-
+<% if user_signed_in? %> <!-- ONLY SIGNED USERS CAN ADD APPLICATIONS! -->
 <%= link_to "New application", new_application_path %>
+<% end %>
