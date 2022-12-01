@@ -1,0 +1,24 @@
+
+
+<table>
+    <tr>
+        <td><%= image_tag 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2017%2F10%2Fmonero-logo-9.png', style:'width: 100px; height: 100px'%><td>
+        <td>Currently unavaliable</td>
+        <td><button onclick="CopyXMR()">Copy</button></td>
+    </tr>
+    <tr>
+        <td><%= image_tag 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F04%2FZcash_logo_gold.png', style:'width: 100px; height: 100px'%><td>
+        <td>Currently unavaliable</td>
+        <td><button onclick="CopyZEC()">Copy</button></td>
+    </tr>
+</table>
+
+<script>
+    function CopyXMR() {
+        navigator.clipboard.writeText ("It will be done!");
+    }
+
+    function CopyZEC() {
+        navigator.clipboard.writeText ("It will be done!");
+    }
+</script>
