@@ -2,10 +2,10 @@
 
 <%= render @application %>
 
-<div>
-  <%= link_to "Back to applications", applications_path %> |
+<div class="container">
+  <%= link_to "Back to applications", applications_path, class:"link" %>
   <% if user_signed_in? %> <!-- SHOW THIS OPTIONS ONLY IF USER IS SIGNED IN -->
-  <%= link_to "Edit this application", edit_application_path(@application) %>
-  <%= button_to "Destroy this application", @application, method: :delete %>
+  <%= link_to "Edit this application", edit_application_path(@application), class:"link" %>
+  <%= button_to "Destroy this application", @application, method: :delete, class: "button" %>
   <% end %>
 </div>

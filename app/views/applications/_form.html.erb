@@ -11,32 +11,32 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="block">
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
   </div>
 
-  <div>
+  <div class="block">
     <%= form.label :author, style: "display: block" %>
     <%= form.text_field :author %>
   </div>
 
-  <div>
+  <div class="block">
     <%= form.label :rd, style: "display: block" %>
     <%= form.date_field :rd %>
   </div>
 
-  <div>
+  <div class="block">
     <%= form.label :ca, style: "display: block" %>
     <%= form.text_field :ca %>
   </div>
 
-  <div>
+  <div  class="block">
     <%= form.label :cs, style: "display: block" %>
-    <%= form.check_box :cs %>
+    <%= form.check_box :cs, class: "checkbox" %>
   </div>
 
-  <div>
+  <div class="block">
     <%= form.label :img, style: "display: block" %>
     <%= form.text_field :img %>
   </div>
