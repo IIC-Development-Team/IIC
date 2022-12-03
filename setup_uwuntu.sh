@@ -3,6 +3,7 @@
 #   -Debian
 #   -ZorinOS
 #   -Mint
+#   -Uwuntu
 
 #INSTALL CLANG LIBRARY SO GEMS CAN BUILD THEIR NATIVE EXTENSIONS
 sudo apt install clang
