@@ -16,6 +16,7 @@ nav {
 }
 
 .container {
+    display: inline-block;
     margin: 50px auto 0 auto;
     background-color: #c0c0c060;
     width: 500px;
@@ -26,6 +27,20 @@ nav {
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
 }
+
+.container-show{
+    display: block;
+    margin: 50px auto 0 auto;
+    background-color: #c0c0c060;
+    width: 500px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
 
 .iic-nav-element {
     text-decoration: none;
@@ -125,7 +140,7 @@ nav {
 .show {
     margin: 20px auto;
     background-color: #c0c0c060;
-    width: 500px;
+    width: 400px;
     border-radius: 30px;
     border: solid #9e0000 1.5px;
     padding: 20px;

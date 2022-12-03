@@ -1,4 +1,4 @@
-<div class="container"> 
+<div class="container" id="app-div"> 
   <div id="<%= dom_id application %>">
     <p>
       <strong>Title:</strong>
@@ -11,24 +11,32 @@
     </p>
 
     <p>
-      <strong>Rd:</strong>
+      <strong>Release date (mm-dd-yyyy):</strong>
       <%= application.rd %>
     </p>
 
     <p>
-      <strong>Ca:</strong>
+      <strong>Crack author:</strong>
       <%= application.ca %>
     </p>
 
     <p>
-      <strong>Cs:</strong>
-      <%= application.cs %>
+      <strong>Crack status:</strong>
+      <% if application.cs == true %>
+      Cracked
+      <%else%>
+      Not cracked yet
+      <%end%>
     </p>
 
   <p>
     <%= image_tag application.img, style:'width: 200px; height: 200px'%>
   </p>
 
-
+  <% if current_page?('/applications') %>
+    <p class="show">
+      <%= link_to "Show this application", application, class:"link" %>
+    </p>
+  <% end %>
   </div>
 </div>

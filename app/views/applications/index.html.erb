@@ -4,11 +4,10 @@
   <h1 class="container">Applications</h1>
 
   <div id="applications">
-    <% @applications.each do |application| %>
-      <%= render application %>
-      <p class="show">
-        <%= link_to "Show this application", application, class:"link" %>
-      </p>
+    <% @applications.each_slice(3) do |applications| %>
+          <%- applications.each do |application| %>
+            <%= render application%>
+          <%end%>
     <% end %>
   </div> 
   <% if user_signed_in? %> <!-- ONLY SIGNED USERS CAN ADD APPLICATIONS! -->
