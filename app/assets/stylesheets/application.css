@@ -1,15 +1,150 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html, body {
+    background-color: #1d0000;
+    text-align: center;
+}
+
+nav {
+    background-color: #c0c0c060;
+    margin: 50px auto;
+    width: 500px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+.container {
+    display: inline-block;
+    margin: 50px auto 0 auto;
+    background-color: #c0c0c060;
+    width: 500px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+.container-show{
+    display: block;
+    margin: 50px auto 0 auto;
+    background-color: #c0c0c060;
+    width: 500px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+
+.iic-nav-element {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-right: dotted #9e0000 2px;
+    display: inline-block;
+    cursor: default;
+}
+
+.iic-nav-element:first-child {
+    border-left: dotted #9e0000 2px;
+}
+
+.iic-nav-element:hover {
+    background-color: #18181860;
+}
+
+.iic-nav-element-button {
+    margin-top: 20px;
+    background-color: #c0c0c060;
+    border: solid #9e0000 2px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.iic-nav-element-button:hover {
+    background-color: #18181860;
+}
+
+.iic-div-textblock {
+    background-color: #c0c0c060;
+    margin: 50px auto;
+    width: 30vw;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-right: dotted #9e0000 2px;
+    border-left: dotted #9e0000 2px;
+    cursor: default;
+}
+
+.link:hover {
+    background-color: #18181860;
+}
+
+.block {
+    margin: 30px;
+    padding: 10px;
+}
+
+.block > input {
+    border: solid #9e0000 2px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.button {
+    margin: 20px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #c0c0c060;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #18181860;
+}
+
+#application {
+    margin: 50px auto;
+    background-color: #c0c0c060;
+    width: 30vw;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+.show {
+    margin: 20px auto;
+    background-color: #c0c0c060;
+    width: 400px;
+    border-radius: 30px;
+    border: solid #9e0000 1.5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
+    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
+    box-shadow: 0px 0px 58px -5px #9e0000;
+}

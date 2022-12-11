@@ -1,32 +1,42 @@
-<div id="<%= dom_id application %>">
-  <p>
-    <strong>Title:</strong>
-    <%= application.title %>
-  </p>
+<div class="container" id="app-div"> 
+  <div id="<%= dom_id application %>">
+    <p>
+      <strong>Title:</strong>
+      <%= application.title %>
+    </p>
+
+    <p>
+      <strong>Author:</strong>
+      <%= application.author %>
+    </p>
+
+    <p>
+      <strong>Release date (mm-dd-yyyy):</strong>
+      <%= application.rd %>
+    </p>
+
+    <p>
+      <strong>Crack author:</strong>
+      <%= application.ca %>
+    </p>
+
+    <p>
+      <strong>Crack status:</strong>
+      <% if application.cs == true %>
+      Cracked
+      <%else%>
+      Not cracked yet
+      <%end%>
+    </p>
 
   <p>
-    <strong>Author:</strong>
-    <%= application.author %>
+    <%= image_tag application.img, style:'width: 200px; height: 200px'%>
   </p>
 
-  <p>
-    <strong>Rd:</strong>
-    <%= application.rd %>
-  </p>
-
-  <p>
-    <strong>Ca:</strong>
-    <%= application.ca %>
-  </p>
-
-  <p>
-    <strong>Cs:</strong>
-    <%= application.cs %>
-  </p>
-
-  <p>
-    <strong>Img:</strong>
-    <%= application.img %>
-  </p>
-
+  <% if current_page?('/applications') %>
+    <p class="show">
+      <%= link_to "Show this application", application, class:"link" %>
+    </p>
+  <% end %>
+  </div>
 </div>

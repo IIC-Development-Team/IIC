@@ -1,15 +1,17 @@
-<p style="color: green"><%= notice %></p>
 
-<h1>Applications</h1>
+  <p style="color: green"><%= notice %></p>
 
-<div id="applications">
-  <% @applications.each do |application| %>
-    <%= render application %>
-    <p>
-      <%= link_to "Show this application", application %>
-    </p>
+  <h1 class="container">Applications</h1>
+
+  <div id="applications">
+    <% @applications.each_slice(3) do |applications| %>
+          <%- applications.each do |application| %>
+            <%= render application%>
+          <%end%>
+    <% end %>
+  </div> 
+  <% if user_signed_in? %> <!-- ONLY SIGNED USERS CAN ADD APPLICATIONS! -->
+  <div  class="container">
+  <%= link_to "New application", new_application_path, class:"link" %>
+  </div>
   <% end %>
-</div>
-<% if user_signed_in? %> <!-- ONLY SIGNED USERS CAN ADD APPLICATIONS! -->
-<%= link_to "New application", new_application_path %>
-<% end %>
