@@ -30,7 +30,9 @@
     </p>
 
   <p>
-    <%= image_tag application.img, style:'width: 200px; height: 200px'%>
+    <% if application.img%>
+      <%= image_tag application.img, style:'width: 200px; height: 200px'%>
+    <% end %>
   </p>
 
   <% if current_page?('/applications') %>
