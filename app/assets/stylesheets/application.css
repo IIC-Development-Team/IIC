@@ -29,7 +29,7 @@ nav {
 }
 
 
-.container-show{
+.show-application-container{
     display: block;
     margin: 50px auto 0 auto;
     background-color: #c0c0c060;
@@ -40,6 +40,19 @@ nav {
     -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
+}
+.nav-element {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid #9e0000 2px;
+    cursor: default;
+}
+
+.nav-element:hover {
+    background-color: #18181860;
 }
 
 .apps {
@@ -52,75 +65,6 @@ nav {
     -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
-}
-
-.iic-nav-element {
-    text-decoration: none;
-    color: black;
-    margin: 0px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-right: dotted #9e0000 2px;
-    display: inline-block;
-    cursor: default;
-}
-
-.iic-nav-element:first-child {
-    border-left: dotted #9e0000 2px;
-}
-
-.iic-nav-element:hover {
-    background-color: #18181860;
-}
-
-.iic-nav-element-button {
-    margin-top: 20px;
-    background-color: #c0c0c060;
-    border: solid #9e0000 2px;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.iic-nav-element-button:hover {
-    background-color: #18181860;
-}
-
-.iic-div-textblock {
-    background-color: #c0c0c060;
-    margin: 50px auto;
-    width: 30vw;
-    border-radius: 30px;
-    border: solid #9e0000 1.5px;
-    padding: 20px;
-    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
-    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
-    box-shadow: 0px 0px 58px -5px #9e0000;
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-right: dotted #9e0000 2px;
-    border-left: dotted #9e0000 2px;
-    cursor: default;
-}
-
-.link:hover {
-    background-color: #18181860;
-}
-
-.block {
-    margin: 30px;
-    padding: 10px;
-}
-
-.block > input {
-    border: solid #9e0000 2px;
-    border-radius: 10px;
-    margin: 10px auto;
 }
 
 .button {
@@ -162,34 +106,6 @@ nav {
     box-shadow: 0px 0px 58px -5px #9e0000;
 }
 
-.input-group {
-    background-color: #c0c0c060;
-    margin: 20px auto;
-    width: 500px;
-    border-radius: 30px;
-    border: solid #9e0000 1.5px;
-    padding: 20px;
-    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
-    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
-    box-shadow: 0px 0px 58px -5px #9e0000;
-}
-
-.btn {
-    margin: 20px;
-    border-radius: 30px;
-    border: solid #9e0000 1.5px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #c0c0c060;
-    font-size: 18px;
-    width: 380px;
-}
-
-.btn:hover {
-    background-color: #18181860;
-    cursor: default;
-}
-
 .form-control {
     width: 340px;
     margin: auto;
@@ -198,4 +114,10 @@ nav {
     padding: 5px;
     padding: 5px;
     background-color: #e0e0e0b2;
+    font-size: 150%;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
