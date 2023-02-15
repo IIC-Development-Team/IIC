@@ -18,9 +18,4 @@
             <%= render application%>
           <%end%>
     <% end %>
-  </div> 
-  <% if user_signed_in? %> <!-- ONLY SIGNED USERS CAN ADD APPLICATIONS! -->
-  <div  class="container">
-  <%= link_to "New application", new_application_path, class:"link" %>
   </div>
-  <% end %>
