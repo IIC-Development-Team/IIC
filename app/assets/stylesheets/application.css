@@ -17,7 +17,7 @@ nav {
 
 .container {
     display: inline-block;
-    margin: 50px auto 0 auto;
+    margin: 50px 10px 0px 10px;
     background-color: #c0c0c060;
     width: 500px;
     border-radius: 30px;
@@ -28,7 +28,8 @@ nav {
     box-shadow: 0px 0px 58px -5px #9e0000;
 }
 
-.container-show{
+
+.show-application-container{
     display: block;
     margin: 50px auto 0 auto;
     background-color: #c0c0c060;
@@ -40,75 +41,30 @@ nav {
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
 }
-
-
-.iic-nav-element {
+.nav-element {
     text-decoration: none;
     color: black;
     margin: 0px;
     padding: 10px;
     margin-bottom: 10px;
-    border-right: dotted #9e0000 2px;
-    display: inline-block;
+    border: solid #9e0000 2px;
     cursor: default;
 }
 
-.iic-nav-element:first-child {
-    border-left: dotted #9e0000 2px;
-}
-
-.iic-nav-element:hover {
+.nav-element:hover {
     background-color: #18181860;
 }
 
-.iic-nav-element-button {
-    margin-top: 20px;
+.apps {
     background-color: #c0c0c060;
-    border: solid #9e0000 2px;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.iic-nav-element-button:hover {
-    background-color: #18181860;
-}
-
-.iic-div-textblock {
-    background-color: #c0c0c060;
-    margin: 50px auto;
-    width: 30vw;
+    margin: 20px auto;
+    width: 500px;
     border-radius: 30px;
     border: solid #9e0000 1.5px;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-right: dotted #9e0000 2px;
-    border-left: dotted #9e0000 2px;
-    cursor: default;
-}
-
-.link:hover {
-    background-color: #18181860;
-}
-
-.block {
-    margin: 30px;
-    padding: 10px;
-}
-
-.block > input {
-    border: solid #9e0000 2px;
-    border-radius: 10px;
-    margin: 10px auto;
 }
 
 .button {
@@ -132,6 +88,7 @@ nav {
     border-radius: 30px;
     border: solid #9e0000 1.5px;
     padding: 20px;
+    height: 700px;
     -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
@@ -147,4 +104,20 @@ nav {
     -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
     -moz-box-shadow: 0px 0px 58px -5px #9e0000;
     box-shadow: 0px 0px 58px -5px #9e0000;
+}
+
+.form-control {
+    width: 340px;
+    margin: auto;
+    border: solid #9e0000 2px;
+    border-radius: 10px;
+    padding: 5px;
+    padding: 5px;
+    background-color: #e0e0e0b2;
+    font-size: 150%;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }

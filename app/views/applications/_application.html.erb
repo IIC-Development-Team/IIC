@@ -11,7 +11,7 @@
     </p>
 
     <p>
-      <strong>Release date (mm-dd-yyyy):</strong>
+      <strong>Release date (year-month-day):</strong>
       <%= application.rd %>
     </p>
 
@@ -29,16 +29,47 @@
       <%end%>
     </p>
 
-  <p>
-    <% if application.img%>
-      <%= image_tag application.img, style:'width: 200px; height: 200px'%>
-    <% end %>
-  </p>
-
-  <% if current_page?('/applications') %>
-    <p class="show">
-      <%= link_to "Show this application", application, class:"link" %>
+    <p>
+      <strong>Size (GB):</strong>
+      <%= application.size %>
     </p>
-  <% end %>
-  </div>
+
+    <p>
+      <strong>Type:</strong>
+      <% case application.app_type%>
+      <% when 0 %>
+        Game
+      <% when 1 %>
+        Video Editor
+      <% when 2 %>
+        3D Model Editor
+      <% when 3 %>
+        IDE / Text Editor
+      <% when 4 %>
+        Audio / Music Editor
+      <% when 5 %>
+        Premiere Pro Plugin
+      <% when 6 %>
+        Virtual Machine Manager
+      <% when 7 %>
+        Image Editor
+      <% when 8 %>
+        Office Packet
+      <% else %>
+        Unknown type
+      <% end %>
+    </p>
+
+    <p>
+      <% if application.img%>
+        <%= image_tag application.img%>
+      <% end %>
+    </p>
+
+    <% if current_page?('/applications') %>
+      <p class="show">
+        <%= link_to "Show this application", application, class:"link" %>
+      </p>
+    <% end %>
+    </div>
 </div>

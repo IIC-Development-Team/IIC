@@ -9,5 +9,4 @@ class Application < ApplicationRecord
   CSV.foreach('apps.csv', headers: true) do |row|
     Application.create(row.to_h)
   end
-
 end
