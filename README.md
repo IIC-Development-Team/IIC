@@ -1,5 +1,6 @@
 # README
 
+## About
 IIC is shortcut for "Is it cracked". Project was created to repace crackwatch
 and extend it's database for other types of software.
 
@@ -14,3 +15,12 @@ package manager (I've tried with pacman but there was problems with rails).
 You can also use WSL if you like or install it on pure windows but I haven't
 tested if they are working correctly.
 
+## Tests
+Currently project was tested and is fully working on following systems:
+* Linux Ubuntu 22 LTS
+* Linux Mint 21
+* Linux Ubuntu Server 22
+* ZorinOS 16
+
+Warning! Project might work on other operating systems but was not tested
+and thus full support from the creators it's not guaranteed
