@@ -1,4 +1,4 @@
-<div class="container" id="app-div"> 
+
   <div id="<%= dom_id application %>">
     <p>
       <strong>Title:</strong>
@@ -23,9 +23,9 @@
     <p>
       <strong>Crack status:</strong>
       <% if application.cs == true %>
-      Cracked
+      <span style="color: green"> Cracked </span>
       <%else%>
-      Not cracked yet
+      <span style="color: red"> Not cracked yet </span>
       <%end%>
     </p>
 
@@ -72,4 +72,3 @@
       </p>
     <% end %>
     </div>
-</div>
