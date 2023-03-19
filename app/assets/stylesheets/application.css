@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
 html, body {
     background-image: url("background.svg");
     text-align: center;
@@ -18,8 +20,16 @@ nav {
 }
 
 .container {
-    width: 70vw;
+    width: 35%;
+    padding: 15px;
     margin: auto;
+    background-color: #181818;
+    color: #ffffff;
+    border-radius: 30px;
+    border: solid #aa9414 4.5px;
+    -webkit-box-shadow: 0px 0px 58px -5px #aa9414;
+    -moz-box-shadow: 0px 0px 58px -5px #aa9414;
+    box-shadow: 0px 0px 58px -5px #aa9414;
 }
 
 
@@ -44,7 +54,8 @@ nav {
     padding: 20px;
 }
 
-.iic-nav-element {
+.nav-element {
+    font-family: 'Gajraj One', cursive;
     text-decoration: none;
     color: #ffffff;
     margin: 0px;
@@ -53,18 +64,18 @@ nav {
     border-right: solid #aa9414 1px;
     display: inline-block;
     cursor: default;
-    font-size: 14px;
+    font-size: 17px;
 }
 
-.iic-nav-element:first-child {
+.nav-element:first-child {
     border-left: solid #aa9414 1px;
 }
 
-.iic-nav-element:hover {
+.nav-element:hover {
     color: #998826;
 }
 
-.iic-nav-element-button {
+.nav-element-button {
     margin-top: 20px;
     background-color: #c0c0c060;
     border: solid #aa9414 2px;
@@ -73,11 +84,11 @@ nav {
     font-size: 18px;
 }
 
-.iic-nav-element-button:hover {
+.nav-element-button:hover {
     background-color: #18181860;
 }
 
-.iic-div-textblock {
+.div-textblock {
     background-color: #c0c0c060;
     margin: 50px auto;
     width: 30vw;
@@ -146,45 +157,6 @@ nav {
     box-shadow: 0px 0px 58px -5px #aa9414;
 }
 
-.show {
-    margin: 20px auto;
-    background-color: #c0c0c060;
-    width: 400px;
-    border-radius: 30px;
-    border: solid #9e0000 1.5px;
-    padding: 20px;
-    -webkit-box-shadow: 0px 0px 58px -5px #9e0000;
-    -moz-box-shadow: 0px 0px 58px -5px #9e0000;
-    box-shadow: 0px 0px 58px -5px #9e0000;
-}
-
-.input-group {
-    margin: 20px auto;
-    width: 10vw;
-    height: 60px;
-    display: inline;
-}
-
-.btn {
-    margin: 20px;
-    border-radius: 30px;
-    border: solid #aa9414 1.5px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #c0c0c060;
-    font-size: 18px;
-    width: 290px;
-}
-
-.btn:hover {
-    cursor: default;
-    color: #aa9414;
-    background-color: #616161;
-    -webkit-box-shadow: 0px 0px 58px -5px #272727;
-    -moz-box-shadow: 0px 0px 58px -5px #272727;
-    box-shadow: 0px 0px 58px -5px #272727;
-}
-
 .form-control {
     margin: 20px 0 50px 0;
     width: 40%;
@@ -213,4 +185,25 @@ nav {
     font-size: 24px;
     color: white;
     margin: 0;
+}
+
+.app {
+    font-family: 'Gajraj One';
+    font-size: 20px;
+    background-color: #181818;
+    color: #ffffff;
+    margin-top: 10px;
+    border: solid #aa9414 4.5px;
+    padding: 10px;
+}
+
+.link-app {
+    font-family: 'Gajraj One', cursive;
+    color: #998826;
+    text-decoration: none;
+}
+
+.link-app:hover {
+    color: #616161;
+    transition: 0.5s;
 }
