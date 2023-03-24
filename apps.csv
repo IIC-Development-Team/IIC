@@ -99,3 +99,67 @@ id,title,author,rd,ca,cs,img,created_at,updated_at,size,app_type
 98,BeamNG.drive,BeamNG,2015-05-29,DRM FREE,1,https://cdn.akamai.steamstatic.com/steam/apps/284160/header.jpg?t=1670937192,,,45,0
 99,Cities Skylines,Colossal Order Ltd. | Paradox Interactive,2015-03-10,CODEX,1,https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg?t=1678118884,,,14,0
 100,Among Us,Innersloth,2018-11-16,IGGGAMES,1,https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1673370035,,,0.3,0
+101,Yakuza 0,Ryu Ga Gotoku Studio | SEGA,2018-07-01,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/638970/header.jpg?t=1671625198,,,"14,00",0
+102,Yakuza: Like a Dragon,Ryu Ga Gotoku Studio | SEGA,2020-11-10,Empress,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg?t=1677167527,,,"40,00",0
+103,Yakuza Kiwami,Ryu Ga Gotoku Studio | SEGA,2019-02-19,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/834530/header.jpg?t=1671625294,,,"12,50",0
+104,Yakuza Kiwami 2,Ryu Ga Gotoku Studio | SEGA,2019-05-09,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/927380/header.jpg?t=1671625335,,,"41,00",0
+105,Yakuza 3 Remastered,Ryu Ga Gotoku Studio | SEGA,2021-01-28,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1088710/header.jpg?t=1615575232,,,"26,00",0
+106,Yakuza 4 Remastered,Ryu Ga Gotoku Studio | SEGA,2021-01-28,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1105500/header.jpg?t=1615821114,,,"35,00",0
+107,Yakuza 5 Remastered,Ryu Ga Gotoku Studio | SEGA,2021-01-28,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1105510/header.jpg?t=1612955388,,,"32,50",0
+108,Yakuza 6 Song of Life,Ryu Ga Gotoku Studio | SEGA,2021-03-25,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1388590/header.jpg?t=1616691256,,,"40,00",0
+109,Yakuza Empire,"Out Of The Ordinary | RockGame S.A., PlayWay S.A.",2023-12-31,None,0,https://cdn.cloudflare.steamstatic.com/steam/apps/1349300/header.jpg?t=1678395301,,,"6,00",0
+110,Sekiro: Shadows Die Twice,FromSoftware | Activision,2019-03-21,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267,,,"25,00",0
+111,Dark Souls: Remastered,FromSoftware | Bandai Namco Entertainment,2018-05-24,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/570940/header.jpg?t=1668145065,,,"6,60",0
+112,Dark Souls III,FromSoftware | Bandai Namco Entertainment,2017-03-28,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg?t=1671097812,,,"25,00",0
+113,Dark Souls II,FromSoftware | Bandai Namco Entertainment,2014-04-25,Reloaded,1,https://cdn.cloudflare.steamstatic.com/steam/apps/236430/header.jpg?t=1669850633,,,"12,00",0
+114,Dark Souls II Scholar Of The First Sin,FromSoftware | Bandai Namco Entertainment,2015-04-02,Prophet,1,https://cdn.cloudflare.steamstatic.com/steam/apps/335300/header.jpg?t=1666717194,,,"23,00",0
+115,Watch Dogs: Legion,Ubisoft,2023-01-26,Empress,1,https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg?t=1674755684,,,"115,00",0
+116,Pillars Of Eternity Definitive Edition,Obsidian Entertainment | Paradox Interactive,2015-03-26,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/291650/header.jpg?t=1660749334,,,"15,10",0
+117,Far Cry,Crytek GmbH | Ubisoft,2004-03-23,nosTeam,1,https://cdn.akamai.steamstatic.com/steam/apps/13520/header.jpg?t=1602602361,,,"4,00",0
+118,Far Cry 2,Ubisoft,2008-10-22,Razor1911,1,https://cdn.akamai.steamstatic.com/steam/apps/19900/header.jpg?t=1645563388,,,"4,00",0
+119,Far Cry 3,Ubisoft,2012-11-29,Reloaded,1,https://cdn.akamai.steamstatic.com/steam/apps/220240/header.jpg?t=1667245145,,,"15,00",0
+120,Far Cry 3 Blood Dragon,Ubisoft,2013-05-01,Reloaded,1,https://cdn.akamai.steamstatic.com/steam/apps/233270/header.jpg?t=1617126646,,,"3,00",0
+121,Far Cry 4,Ubisoft,2014-11-18,Reloaded,1,https://cdn.akamai.steamstatic.com/steam/apps/298110/header.jpg?t=1602602982,,,"30,00",0
+122,Far Cry 5,Ubisoft,2018-03-27,CPY,1,https://cdn.akamai.steamstatic.com/steam/apps/552520/header.jpg?t=1678986050,,,"40,00",0
+123,Far Cry New Dawn,Ubisoft,2019-02-15,CODEX,1,https://cdn.akamai.steamstatic.com/steam/apps/939960/header.jpg?t=1646425862,,,"40,00",0
+124,Far Cry 6,Ubisoft,2022-10-06,Empress,1,https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw7387f247/images/large/5ecd2c925cdf9a1528a8c1d1.jpg?sw=341&sh=450&sm=fit,,,"78,50",0
+125,Far Cry Primal,Ubisoft,2016-03-01,CPY,1,https://cdn.akamai.steamstatic.com/steam/apps/371660/header.jpg?t=1638891922,,,"20,00",0
+126,Crysis Remastered,Crytek GmbH,2021-09-17,CPY,1,https://cdn.akamai.steamstatic.com/steam/apps/1715130/header.jpg?t=1666098764,,,"20,00",0
+127,Crysis 2 Remastered,"Saber Interactive, Crytek GmbH",2022-11-17,FAIRLIGHT,1,https://cdn.akamai.steamstatic.com/steam/apps/2096600/header.jpg?t=1669031501,,,"54,00",0
+128,Crysis 3 Remastered,"Saber Interactive, Crytek GmbH",2022-11-17,FAIRLIGHT,1,https://cdn.akamai.steamstatic.com/steam/apps/2096610/header.jpg?t=1669031800,,,"18,00",0
+129,The Witcher,CD PROJEKT RED | 1C-SoftClub,2008-09-16,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/20900/header_polish.jpg?t=1659616192,,,"15,00",0
+130,The Witcher 2: Assasins of Kings,CD PROJEKT RED | 1C-SoftClub,2011-05-17,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/20920/header.jpg?t=1659618473,,,"25,00",0
+131,The Witcher 3: Wild Hunt,CD PROJEKT RED,2015-05-18,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/292030/header_polish.jpg?t=1675178392,,,"50,00",0
+132,Cyberpunk 2077,CD PROJEKT RED,2020-12-10,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1663663573,,,"70,00",0
+133,Stray,BlueTwelve Studio | Annapurna Interactive,2022-07-19,CODEX,1,https://cdn.akamai.steamstatic.com/steam/apps/1332010/header.jpg?t=1670349423,,,"10,00",0
+134,White Night,OSome Studio | Plug In Digital,2015-03-03,CODEX,1,https://cdn.akamai.steamstatic.com/steam/apps/301560/header.jpg?t=1593011705,,,"2,00",0
+135,Neverending Nightmares,Infinitap Games,2014-09-26,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/253330/header.jpg?t=1667116347,,,"0,50",0
+136,Darksiders Warmastered Edition,KAIKO | Vigil Games | THQ Nordic,2016-11-29,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/462780/header.jpg?t=1590128082,,,"21,90",0
+137,Darksiders II Deathinitive Edition,Gunfire Games | Vigil Games | THQ Nordic,2015-11-05,CODEX,1,https://cdn.akamai.steamstatic.com/steam/apps/388410/header.jpg?t=1590127998,,,"7,93",0
+138,Darksiders III Deluxe Edition,Gunfire Games | THQ Nordic,2018-11-27,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/subs/286843/header_586x192.jpg?t=1545429697,,,"18,70",0
+139,Darksiders Genesis Digital Deluxe,Airship Syndicate | THQ Nordic,2019-12-05,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/bundles/12784/bo13lnyosnnqag4r/header_586x192.jpg?t=1575568947,,,"10,10",0
+140,Baldur's Gate: Enhanced Edition,Beamdog,2013-01-16,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/228280/header.jpg?t=1632772481,,,"4,20",0
+141,Baldur's Gate II: Enhanced Edition,Beamdog,2013-11-16,DRM FREE (GOG VERSION),1,https://cdn.akamai.steamstatic.com/steam/apps/257350/header.jpg?t=1618855937,,,"3,90",0
+142,DayZ,Bohemia Interactive,2018-12-13,Darksiders,1,https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg?t=1674143992,,,"25,00",0
+143,The Forest,Endnight Games Ltd,2018-04-30,CODEX,1,https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg?t=1666811027,,,"5,00",0
+144,Sons of the forest,Endnight Games Ltd | Newnight,2023-02-23,Mr Goldberg,1,https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg?t=1677179639,,,"20,00",0
+145,Fl Studio,Image-Line,1997-12-18,FTUApps,1,https://ftuapps.dev/wp-content/uploads/2022/11/FL-Studio-Producer-Edition-v20.9.2.2963.png,,,"1,00",4
+146,LMMS,LMMS developers,2004-01-01,DRM FREE (FOSS),1,https://upload.wikimedia.org/wikipedia/commons/c/cb/LMMS_logo_v1.2.2.png,,,"0,11",4
+147,Logic Pro 10.7.7,Apple,2023-01-26,None,0,https://images.g2a.com/1024x768/1x1x0/apple-logic-pro-mac-lifetime-apple-key-global-i10000336805001/cc2b2223d74e4ddbb7684429,,,"0,90",4
+148,Audacity,The Audacity Team,2000-05-28,DRM FREE (FOSS),1,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Audacity_Logo_nofilter.svg/800px-Audacity_Logo_nofilter.svg.png,,,"0,06",0
+149,Kdenlive 22,KDE,2023-01-09,DRM FREE (FOSS),1,https://kdenlive.org/wp-content/uploads/2016/06/kdenlive-logo-hori.png,,,"0,49",1
+150,Green Hell,Creepy Jar,2019-09-05,FitGirl,1,https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg?t=1674651276,,,"4,80",0
+151,Dying Light Enhanced Edition,Techland,2016-04-21,DRM FREE (GOG VERSION),1,https://cdn.cloudflare.steamstatic.com/steam/subs/88801/header_586x192.jpg?t=1651792054,,,"22,00",0
+152,Dying Light 2 Stay Human,Techland,2022-02-04,EMPRESS,1,https://cdn.cloudflare.steamstatic.com/steam/apps/534380/header_alt_assets_15_polish.jpg?t=1679408873,,,"61,50",0
+153,Adobe Premiere Pro 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/premiere.svg,,,"1,80",1
+154,Adobe Afrer Effects 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/aftereffects.svg,,,"2,90",1
+155,Adobe Audition 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/audition.svg,,,"0,48",4
+156,Adobe Animate 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/animate.svg,,,"2,10",1
+157,Adobe Character Animator 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/character-animator.svg,,,"1,60",1
+158,Adobe Media Encoder 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/media-encoder.svg,,,"1,00",1
+159,Adobe Premiere Rush 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/premiere-rush.svg,,,"0,88",1
+160,Adobe Photoshop 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/us/en/creativecloud/max2020/mnemonics/photoshop.svg,,,"3,10",7
+161,Adobe Photoshop Lightroom 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/lightroom-cc.svg,,,"0,90",7
+162,Adobe Ilustrator 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/illustrator.svg,,,"1,80",7
+163,Adobe InDesign 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/indesign.svg,,,"0,96",7
+164,Adobe Acrobat Pro 2023,Adobe Inc.,2022-10-18,CrackHash,1,https://www.adobe.com/content/dam/cc/icons/acrobat_reader_appicon_noshadow_256.svg,,,"1,20",8
