@@ -23,4 +23,4 @@ Currently project was tested and is fully working on following systems:
 * ZorinOS 16
 
 Warning! Project might work on other operating systems but was not tested
-and thus full support from the creators it's not guaranteed
+and project creators might be unable to help you
