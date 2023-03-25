@@ -1,0 +1,24 @@
+<h1>Administrator control panel</h1> <br>
+
+<% if user_signed_in? %>
+    <div class="container">
+        <h1>Manage</h1> <br>
+        <%= link_to "Close session", destroy_user_session_path, data: { turbo_method: :delete }, class: 'link-app' %> <br>
+        <%= link_to "Check ZCash balance", "https://explorer.zcha.in/accounts/t1gtCmWyc7kw4SSixrHdftjEUzvZAxPXTQb", class: 'link-app' %> <br>
+        <%= link_to "Check Github repository", "https://github.com/ShadowGamer3301/IIC", class: 'link-app' %>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <h2>Control panels</h2> <br>
+        <%= link_to "Applications control panel", application_control_path, class: 'link-app' %>
+    </div>
+<%else%>
+    <div class="container">
+        Your are currently not logged into Administrator accout.
+        Only Administrator accounts can acces these pages. <br>
+
+        <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+    </div>
+<%end%>
