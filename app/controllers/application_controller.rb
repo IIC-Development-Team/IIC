@@ -7,4 +7,7 @@ class ApplicationController < ActionController::Base
       @results = Application.all.where("lower(title) LIKE :search", search: "%#{@parameter}%")
     end
   end
+  def after_sign_out_path_for scope
+    root_path
+  end
 end

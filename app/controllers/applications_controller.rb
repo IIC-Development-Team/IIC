@@ -6,6 +6,11 @@ class ApplicationsController < ApplicationController
     @applications = Application.all
   end
 
+  def control
+    @applications = Application.all
+  end
+
+
   # GET /applications/1 or /applications/1.json
   def show
   end

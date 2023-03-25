@@ -1,0 +1,20 @@
+<h1>Applications control panel</h1> <br>
+
+<div class="container">
+    No. of records:  <%= @applications.count %> <br>
+    Title of last record: <%= @applications.last.title %> <br>
+    Creation of last record: <%= @applications.last.created_at %> <br>
+
+    <hr>
+        <%= link_to "Create new record", new_application_url, class: 'link-app', style: 'font-size: 150%' %> <br>
+    <hr>
+
+    <div id="applications">
+        <% @applications.each_slice(3) do |applications| %>
+            <%- applications.each do |application| %>
+                <div class="app">
+                <%= application.title%>   <br> <%= link_to "Show details", application, class: 'link-app' %> 
+                </div>
+            <%end%>
+        <%end%>
+  </div>
