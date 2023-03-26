@@ -1,0 +1,15 @@
+<div class="wallet">
+<p style="color: green"><%= notice %></p>
+
+<%= render @wallet %>
+<%= link_to "Back to wallets", wallets_path, class: "link-app" %>
+
+<%if user_signed_in? %>
+<div>
+  <%= link_to "Edit this wallet", edit_wallet_path(@wallet), class: "link-app" %>
+  
+
+  <%= button_to "Destroy this wallet", @wallet, method: :delete %>
+</div>
+<%end%>
+</div>

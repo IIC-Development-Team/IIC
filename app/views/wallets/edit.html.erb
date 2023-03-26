@@ -1,0 +1,21 @@
+<%if user_signed_in? %>
+<h1>Editing wallet</h1>
+
+<%= render "form", wallet: @wallet %>
+
+<br>
+
+<div>
+  <%= link_to "Show this wallet", @wallet %> |
+  <%= link_to "Back to wallets", wallets_path %>
+</div>
+
+<%else%>
+
+<div class="container">
+  Your are currently not logged into Administrator accout.
+  Only Administrator accounts can acces these pages. <br>
+  <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+</div>
+
+<%end%>

@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Wallets</h1>
+
+<div id="wallets">
+  <% @wallets.each do |wallet| %>
+  <div class="wallet">
+    <%= render wallet %>
+  </div>
+  <% end %>
+</div>

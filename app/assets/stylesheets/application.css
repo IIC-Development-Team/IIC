@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
 
 html, body {
-    background-image: url("background.svg");
+     background: rgb(192,192,192);
+background: linear-gradient(21deg, rgba(192,192,192,1) 39%, rgba(170,148,20,1) 100%); 
     text-align: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -207,4 +208,11 @@ nav {
 .link-app:hover {
     color: #616161;
     transition: 0.5s;
+}
+
+.wallet {
+    background-color: #181818;
+    color: #ffffff;
+    border: solid #aa9414 4.5px;
+    margin: 5%;
 }

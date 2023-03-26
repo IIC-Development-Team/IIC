@@ -1,0 +1,30 @@
+<div id="<%= dom_id wallet %>">
+  <p>
+    <%= wallet.coin_ico%>
+  </p>
+  <p>
+    <% if wallet.wallet_qr%>
+      <%= image_tag wallet.wallet_qr%>
+    <% end %>
+  </p>
+
+  <% if current_page?('/wallets') %>
+    <p class="show">
+      <%= link_to "Show details", wallet, class:"link-app" %>
+    </p>
+  <%else%>
+    <p>
+      <strong>Wallet:</strong>
+      <button onclick="GetWallAddr()">Get wallet address</button>
+    </p>
+  <% end %>
+  
+</div>
+
+<script>
+
+  function GetWallAddr() {
+    alert("<%= wallet.wallet_txt %>");
+  }
+
+</script>
