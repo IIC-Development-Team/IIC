@@ -8,6 +8,7 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
 gem "turbo-rails"
+gem 'device_detector', '~> 1.1'
 gem "stimulus-rails"
 gem "jbuilder"
 gem 'devise', '~> 4.8', '>= 4.8.1'
