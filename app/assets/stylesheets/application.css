@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html, body {
     background-image: url("background.svg");
@@ -15,7 +15,7 @@ nav {
     left: -10px;
     top: -10px;
     width: 100vw;
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 4px solid #aa9414;
     height: 30px;
 }
@@ -56,7 +56,8 @@ nav {
 }
 
 .nav-element {
-    font-family: 'Gajraj One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
     text-decoration: none;
     color: #ffffff;
     margin: 0px;
@@ -144,7 +145,6 @@ nav {
     box-shadow: 0px 0px 58px -5px #272727;
 }
 
-
 .form-control {
     margin: 20px 0 50px 0;
     width: 40%;
@@ -176,8 +176,11 @@ nav {
 }
 
 .app {
-    font-family: 'Gajraj One';
-    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    width: 70vw;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 24px;
     background-color: #181818;
     color: #ffffff;
     margin-top: 10px;
@@ -186,12 +189,13 @@ nav {
 }
 
 .link-app {
-    font-family: 'Gajraj One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
     color: #998826;
     text-decoration: none;
 }
 
 .link-app:hover {
     color: #616161;
-    transition: 0.5s;
+    transition: 0.2s;
 }
