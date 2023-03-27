@@ -1,3 +1,4 @@
+<%if user_signed_in? %>
 <div class="container">  
   <h1>Editing application</h1>
 
@@ -6,7 +7,16 @@
   <br>
 
   <div>
-    <%= link_to "Show this application", @application, class:"link" %> |
-    <%= link_to "Back to applications", applications_path, class:"link" %>
+    <%= link_to "Show this application", @application, class:"link-app" %> |
+    <%= link_to "Back to applications", applications_path, class:"link-app" %> |
+    <%= link_to "Back to control panel", application_control_path, class:"link-app" %>
   </div>
 </div>
+<%else%>
+    <div class="container">
+        Your are currently not logged into Administrator accout.
+        Only Administrator accounts can acces these pages. <br>
+
+        <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+    </div>
+<%end%>

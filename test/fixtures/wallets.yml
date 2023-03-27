@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coin_ico: MyString
+  wallet_qr: MyString
+  wallet_txt: MyString
+
+two:
+  coin_ico: MyString
+  wallet_qr: MyString
+  wallet_txt: MyString

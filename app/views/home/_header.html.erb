@@ -2,8 +2,10 @@
     <%= link_to 'IIC', root_path, class:'nav-element'%>
     <%= link_to 'About Us', home_about_path, class:'nav-element'%>
     <%= link_to 'Database', applications_path, class:'nav-element'%>
-    <%= link_to 'Donate', home_donate_path, class:'nav-element'%>
+    <%= link_to 'Donate', wallets_path, class:'nav-element'%>
     <%= link_to 'Contributors', home_contributors_path, class:'nav-element'%>
+    <%if user_signed_in? %>
     <%= link_to 'Control Panel', home_control_path, class:'nav-element'%>
+    <%end%>
 </nav>
 
