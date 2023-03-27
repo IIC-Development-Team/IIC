@@ -24,7 +24,7 @@ nav {
 .container {
     width: 35%;
     padding: 15px;
-    margin: auto;
+    margin: 20px auto;
     background-color: #181818;
     color: #ffffff;
     border-radius: 30px;
@@ -206,4 +206,22 @@ nav {
     color: #ffffff;
     border: solid #aa9414 4.5px;
     margin: 5%;
+}
+
+.footer {
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 10%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 70%, rgba(0,212,255,0) 90%);
+    color: #aca05e;
+    margin: auto;
+}
+
+.container #applications .app {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.image {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
 }

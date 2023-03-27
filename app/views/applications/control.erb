@@ -12,7 +12,7 @@
             <%= link_to "Create new record", new_application_url, class: 'link-app', style: 'font-size: 150%' %> <br>
         <hr>
 
-        <div id="applications">
+        <div id="applications" style="width: 100%">
             <% @applications.each_slice(3) do |applications| %>
                 <%- applications.each do |application| %>
                     <div class="app">
