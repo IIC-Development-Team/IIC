@@ -1,3 +1,5 @@
+<% if user_signed_in? %>
+
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
@@ -41,3 +43,13 @@
 <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
 
 <%= link_to "Back", :back %>
+
+<% else %>
+
+<div class="container">
+  Your are currently not logged into Administrator accout.
+  Only Administrator accounts can acces these pages. <br>
+  <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+</div>
+
+<% end %>

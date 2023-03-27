@@ -30,3 +30,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 .~lock.apps.csv#
+
+# Ignore database (it will be distributed separetly
+db/development.sqlite3
