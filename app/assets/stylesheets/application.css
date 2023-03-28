@@ -225,3 +225,21 @@ nav {
     margin: 10px auto;
     padding: 5px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .nav-element {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .container {
+        width: 70vw;
+    }
+
+    .apps {
+        font-size: 36px;
+        width: 70vw;
+    }
+
+}
