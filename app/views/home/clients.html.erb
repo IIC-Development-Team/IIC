@@ -1,0 +1,26 @@
+<h1>Clients control panel</h1> <br>
+
+
+<% if user_signed_in? %>
+ 
+    <div class="container">
+        No. of records:  <%= @usrs.count %> <br>
+        Creation of last record: <%= @usrs.last.created_at %> <br>
+
+        <div id="applications" style="width: 100%">
+            <% @usrs.each_slice(3) do |usrs| %>
+                <%- usrs.each do |usr| %>
+                    <div class="app">
+                    <%= usr.browser%> | <%= usr.os%> | <%= usr.dev_type%> | <%= usr.created_at%>
+                    </div>
+                <%end%>
+            <%end%>
+        </div>
+<%else%>
+    <div class="container">
+        Your are currently not logged into Administrator accout.
+        Only Administrator accounts can acces these pages. <br>
+
+        <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+    </div>
+<%end%>

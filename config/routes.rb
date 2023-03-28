@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get   'application/control', to: "applications#control"
   get   'wallet/control', to: "wallets#control"
   get   'home/control'
+  get   'home/clients'
 end

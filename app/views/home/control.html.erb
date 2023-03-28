@@ -8,6 +8,7 @@
         <%= link_to "Check Github repository", "https://github.com/ShadowGamer3301/IIC", class: 'link-app' %> <br>
         <%= link_to "AWS managment", "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-west-1.console.aws.amazon.com%2Fec2%2Fhome%3Fregion%3Deu-west-1%26state%3DhashArgs%2523Instances%253A%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2&forceMobileApp=0&code_challenge=HN6EbF5BEzc64frxmQlr0oGZEJodlxs-d3yg65QedKs&code_challenge_method=SHA-256", class: 'link-app'%> <br>
         <%= link_to "Domain managment", "https://www.namecheap.com/", class: 'link-app'%> <br>
+        <%= link_to "Change account details", edit_user_registration_path , class: 'link-app'%> <br>
     </div>
 
     <br>
@@ -16,6 +17,7 @@
         <h2>Control panels</h2> <br>
         <%= link_to "Applications control panel", application_control_path, class: 'link-app' %> <br>
         <%= link_to "Wallets control panel", wallet_control_path, class: 'link-app' %> <br>
+        <%= link_to "Clients control panel", home_clients_path, class: 'link-app' %> <br>
     </div>
 
 <%else%>
