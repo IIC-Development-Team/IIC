@@ -30,37 +30,6 @@
     </p>
 
     <p>
-      <strong>Size (GB):</strong>
-      <%= application.size %>
-    </p>
-
-    <p>
-      <strong>Type:</strong>
-      <% case application.app_type%>
-      <% when 0 %>
-        Game
-      <% when 1 %>
-        Video Editor
-      <% when 2 %>
-        3D Model Editor
-      <% when 3 %>
-        IDE / Text Editor
-      <% when 4 %>
-        Audio / Music Editor
-      <% when 5 %>
-        Premiere Pro Plugin
-      <% when 6 %>
-        Virtual Machine Manager
-      <% when 7 %>
-        Image Editor
-      <% when 8 %>
-        Office Packet
-      <% else %>
-        Unknown type
-      <% end %>
-    </p>
-
-    <p>
       <% if application.img%>
         <%= image_tag application.img, class:"image"%>
       <% end %>
