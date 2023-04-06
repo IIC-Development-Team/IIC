@@ -5,7 +5,7 @@ IIC is shortcut for "Is it cracked". Project was created to repace crackwatch
 and extend it's database for other types of software.
 
 System requirments:
-* Ruby 2.7.0 or higher
+* Ruby 2.7.5 or higher
 * Sqlite 3
 * Node.js
 * Rails 7.0.2
@@ -20,7 +20,7 @@ Currently project was tested and is fully working on following systems:
 * Linux Ubuntu 22 LTS
 * Linux Mint 21
 * Linux Ubuntu Server 22
-* ZorinOS 16
+* Void Linux
 
 Warning! Project might work on other operating systems but was not tested
 and project creators might be unable to help you
