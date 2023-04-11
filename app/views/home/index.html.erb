@@ -13,6 +13,16 @@
     Is It Cracked DevTeam
 </div>
 
+<div id="applications">
+    <% @applications.each_slice(3) do |applications| %>
+          <%- applications.each do |application| %>
+            <div class="app">
+              <%= application.title%> | <%= link_to "Show details", application, class: 'link-app' %>
+            </div>
+          <%end%>
+    <%end%>
+</div>
+
 <footer>
     <h2 style="font-family: 'Bebas Neue', cursive; position: fixed; bottom: 5px; width: 100%;" class="footer">This website uses cookies. More details are in About Us tab.</h2>
 </footer>
