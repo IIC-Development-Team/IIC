@@ -1,60 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html, body {
-     background: rgb(192,192,192);
-background: linear-gradient(21deg, rgba(192,192,192,1) 39%, rgba(170,148,20,1) 100%); 
+    background-color: #0f0f0f;
+    color: #a2a2a2;
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    max-width: 100vw;
+    width: 100vw;
     line-height: 30px;
+    margin: 0px;
 }
 
 nav {
-    background-color: #181818;
-    position: relative;
-    left: -10px;
-    top: -10px;
     width: 100vw;
     padding: 15px 0;
-    border-bottom: 4px solid #aa9414;
     height: 30px;
 }
 
-h1 {
+.nav-element {
+    color: #a2a2a2;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: default;
+    font-weight: lighter;
+}
+
+.nav-element:hover {
+    color: #ff6800;
+    cursor: pointer;
+}
+
+#IIC-header {
     font-size: 42px;
+    color: #ff6800;
+    margin: 250px auto;
+    text-transform: uppercase;
+    line-height: 5px;
+}
+
+#IIC-header > p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: none;
+}
+
+#IICDT {
+    font-weight: bolder;
+}
+
+.IIC {
+    height: 1080px;
 }
 
 h2 {
     font-size: 32px;
+    color: #ff6800;
 }
 
 .container {
-    width: 35%;
+    width: 80vw;
     padding: 15px;
     margin: 20px auto;
-    background-color: #181818;
-    color: #ffffff;
     border-radius: 30px;
-    border: solid #aa9414 4.5px;
-    -webkit-box-shadow: 0px 0px 58px -5px #aa9414;
-    -moz-box-shadow: 0px 0px 58px -5px #aa9414;
-    box-shadow: 0px 0px 58px -5px #aa9414;
 }
 
 
 .container-show{
     display: block;
     margin: 50px auto 0 auto;
-    background-color: #c0c0c060;
     width: 500px;
     border-radius: 30px;
-    border: solid #aa9414 1.5px;
     padding: 20px;
-    -webkit-box-shadow: 0px 0px 58px -5px #aa9414;
-    -moz-box-shadow: 0px 0px 58px -5px #aa9414;
-    box-shadow: 0px 0px 58px -5px #aa9414;
 }
 
 .apps {
@@ -68,59 +87,30 @@ h2 {
     font-weight: bolder;
 }
 
-.nav-element {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 24px;
-    text-decoration: none;
-    color: #ffffff;
-    margin: 0px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-right: solid #aa9414 1px;
-    display: inline-block;
-    cursor: default;
+#left, #right {
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin: 20px;
 }
 
-.nav-element:first-child {
-    border-left: solid #aa9414 1px;
-}
-
-.nav-element:hover {
-    color: #998826;
-}
-
-.nav-element-button {
-    margin-top: 20px;
-    background-color: #c0c0c060;
-    border: solid #aa9414 2px;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.nav-element-button:hover {
-    background-color: #18181860;
+#right {
+    width: 40%;
+    float: right;
+    text-align: left;
+    margin: 20px;
 }
 
 .div-textblock {
-    background-color: #c0c0c060;
     margin: 50px auto;
     width: 30vw;
-    border-radius: 30px;
-    border: solid #aa9414 1.5px;
     padding: 20px;
-    -webkit-box-shadow: 0px 0px 58px -5px #aa9414;
-    -moz-box-shadow: 0px 0px 58px -5px #aa9414;
-    box-shadow: 0px 0px 58px -5px #aa9414;
 }
 
 .link {
     text-decoration: none;
-    color: black;
     padding: 10px;
     margin-bottom: 10px;
-    border-right: dotted #aa9414 2px;
-    border-left: dotted #aa9414 2px;
     cursor: default;
 }
 
@@ -153,9 +143,6 @@ h2 {
     cursor: default;
     background-color: #616161;
     color: #aa9414;
-    -webkit-box-shadow: 0px 0px 58px -5px #272727;
-    -moz-box-shadow: 0px 0px 58px -5px #272727;
-    box-shadow: 0px 0px 58px -5px #272727;
 }
 
 .form-control {
@@ -168,13 +155,6 @@ h2 {
     background-color: #181818;
     font-size: 24px;
     color: white;
-}
-
-.form-control:focus {
-    color: #aa9414;
-    -webkit-box-shadow: 0px 0px 58px -5px #272727;
-    -moz-box-shadow: 0px 0px 58px -5px #272727;
-    box-shadow: 0px 0px 58px -5px #272727;
 }
 
 .btn-info {
@@ -190,15 +170,81 @@ h2 {
 
 .app {
     font-family: 'Bebas Neue', cursive;
-    width: 70vw;
-    margin: auto;
-    border-radius: 5px;
+    width: 41vw;
+    height: 250px;
+    border-radius: 25px;
     font-size: 24px;
     background-color: #181818;
     color: #ffffff;
-    margin-top: 10px;
-    border: solid #aa9414 4.5px;
-    padding: 10px;
+}
+
+.apps-con {
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+}
+
+#applications {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 50px 110px;
+    position: relative;
+}
+
+#search {
+    margin: auto;
+    padding: 20px;
+    height: 80px;
+}
+
+#search-left {
+    width: 50%;
+    float: left;
+}
+
+#search-left > input {
+    background-color: #2a2a2a;
+    border: none;
+    width: 210px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+#search-right {
+    width: 50%;
+    float: left; 
+    text-align: right;
+}
+
+.search-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0 0 0 20px;
+}
+
+.app-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.app-right {
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    margin: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
 }
 
 .link-app {
@@ -223,9 +269,9 @@ h2 {
 .footer {
     width: 100vw;
     background: linear-gradient(90deg, rgba(255,255,255,0) 10%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 70%, rgba(0,212,255,0) 90%);
-    color: #aca05e;
     margin: auto;
     font-size: 26px;
+    display: none;
 }
 
 .container #applications .app {
@@ -233,11 +279,6 @@ h2 {
     margin: 10px auto;
 }
 
-.image {
-    width: 90%;
-    margin: 10px auto;
-    padding: 5px;
-}
 
 
 @media screen and (max-width: 600px) {

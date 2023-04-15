@@ -1,28 +1,65 @@
-<div class="container">
-    <h1>Is It Cracked</h1>
+<div class="container IIC">
+  <div id="IIC-header">
+    <h1>Is It Cracked?</h1>
     <p>Database of cracked software</p>
+  </div>
+
+  We have built this project as free and open sourced, so anyone can enjoy and
+  improve it. Yet some things are not free, such as servers, domains, etc.
+  We want to offer you the best experience without the need for serving you ads, or
+  collecting and selling your data to 3rd-party companies. So we would be
+  very happy if you would consider donating and helping us maintain this project. <br> 
+  <p id="IICDT">Is It Cracked DevTeam</p>
+  <a id="roller" href="#applications" onClick="smoothScroll(event)">ez</a>
 </div>
 
-<div class="container">
-    <h2 style="font-family: 'Bebas Neue', cursive;">Small request from authors.</h2>
-    We have built this project as free and open sourced, so anyone can enjoy and
-    improve it. Yet some things are not free, such as servers, domains, etc.
-    We want to offer you the best experience without the need for serving you ads, or
-    collecting and selling your data to 3rd-party companies. So we would be
-    very happy if you would consider donating and helping us maintain this project. <br> 
-    Is It Cracked DevTeam
-</div>
-
+<div class="apps-con">
+  <div id="search">
+    <div id="search-left">
+      <input type="text" id="search-left">
+    </div>
+    <div id="search-right">
+      <button class="search-btn">Sort</button>
+      <button class="search-btn">Filter</button>
+    </div>
+    <div style="float: none;"></div>
+  </div><br>
 <div id="applications">
     <% @applications.each_slice(3) do |applications| %>
           <%- applications.each do |application| %>
             <div class="app">
-              <%= application.title%> | <%= link_to "Show details", application, class: 'link-app' %>
+              <div class="app-left">
+                <%= image_tag application.img, class:"image"%>
+              </div>
+              <div class="app-right">
+                <strong><%= application.title %></strong><br>
+                <%= application.author %><br>
+                <%= application.rd %><br><br>
+                Status: 
+                <% if application.cs == true %>
+                <span style="color: green"> Cracked </span>
+                <%else%>
+                <span style="color: red"> Not cracked yet </span>
+                <%end%><br>
+                Crack: <%= application.ca %>
+              </div>
             </div>
           <%end%>
     <%end%>
+</div>
 </div>
 
 <footer>
     <h2 style="font-family: 'Bebas Neue', cursive; position: fixed; bottom: 5px; width: 100%;" class="footer">This website uses cookies. More details are in About Us tab.</h2>
 </footer>
+
+
+<script>
+function smoothScroll(event) {
+  event.preventDefault();
+  var targetSection = document.getElementById("applications");
+  var targetOffsetTop = targetSection.offsetTop;
+  window.scroolTo({top: targetOffsetTop, behavior: "smooth"});
+}
+
+</script>
