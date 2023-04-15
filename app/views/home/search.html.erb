@@ -1,17 +1,3 @@
-<div class="container IIC">
-  <div id="IIC-header">
-    <h1>Is It Cracked?</h1>
-    <p>Database of cracked software</p>
-  </div>
-
-  We have built this project as free and open sourced, so anyone can enjoy and
-  improve it. Yet some things are not free, such as servers, domains, etc.
-  We want to offer you the best experience without the need for serving you ads, or
-  collecting and selling your data to 3rd-party companies. So we would be
-  very happy if you would consider donating and helping us maintain this project. <br> 
-  <p id="IICDT">Is It Cracked DevTeam</p>
-</div>
-
 <div class="apps-con">
   <div id="search">
       <%= form_tag(home_search_path, :method => "get") do %>
@@ -22,7 +8,7 @@
   <% end %>
   </div><br>
 <div id="applications">
-    <% @applications.each_slice(3) do |applications| %>
+    <% @results.each_slice(3) do |applications| %>
           <%- applications.each do |application| %>
             <div class="app">
               <div class="app-left">
@@ -45,18 +31,3 @@
     <%end%>
 </div>
 </div>
-
-<footer>
-    <h2 style="font-family: 'Bebas Neue', cursive; position: fixed; bottom: 5px; width: 100%;" class="footer">This website uses cookies. More details are in About Us tab.</h2>
-</footer>
-
-
-<script>
-function smoothScroll(event) {
-  event.preventDefault();
-  var targetSection = document.getElementById("applications");
-  var targetOffsetTop = targetSection.offsetTop;
-  window.scroolTo({top: targetOffsetTop, behavior: "smooth"});
-}
-
-</script>

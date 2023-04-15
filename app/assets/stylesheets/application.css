@@ -146,14 +146,11 @@ h2 {
 }
 
 .form-control {
-    margin: 20px 0 50px 0;
-    width: 40%;
     height: 100%;
     border: solid #5e5e5e 2px;
     border-radius: 5px;
-    padding: 10px 20px;
     background-color: #181818;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
 }
 
@@ -193,29 +190,16 @@ h2 {
 }
 
 #search {
-    margin: auto;
     padding: 20px;
     height: 80px;
 }
 
 #search-left {
-    width: 50%;
     float: left;
 }
 
-#search-left > input {
-    background-color: #2a2a2a;
-    border: none;
-    width: 210px;
-    height: 30px;
-    border-radius: 15px;
-    padding: 10px 20px;
-}
-
 #search-right {
-    width: 50%;
-    float: left; 
-    text-align: right;
+    float: right; 
 }
 
 .search-btn {
