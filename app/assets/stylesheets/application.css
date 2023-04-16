@@ -7,6 +7,7 @@ html, body {
     width: 100vw;
     line-height: 30px;
     margin: 0px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
     font-weight: lighter;
 }
 
-.nav-element:hover {
+.nav-element:hover, .search-btn:hover {
     color: #ff6800;
     cursor: pointer;
 }
@@ -142,7 +143,7 @@ h2 {
 .button:hover {
     cursor: default;
     background-color: #616161;
-    color: #ff6800;
+    color: #aa9414;
 }
 
 .form-control {
@@ -152,17 +153,6 @@ h2 {
     background-color: #181818;
     font-size: 20px;
     color: white;
-}
-
-.btn-info {
-    height: 100%;
-    border: solid #5e5e5e 2px;
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: #181818;
-    font-size: 24px;
-    color: #fff;
-    margin: 0;
 }
 
 .app {
@@ -198,6 +188,15 @@ h2 {
     float: left;
 }
 
+#search-left > input {
+    background-color: #2a2a2a;
+    border: none;
+    width: 210px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
 #search-right {
     float: right; 
 }
@@ -210,6 +209,7 @@ h2 {
     font-size: 32px;
     margin: 0 0 0 20px;
 }
+
 
 .app-left {
     width: 30%;
@@ -231,6 +231,24 @@ h2 {
     border-radius: 25px 0 0 25px;
 }
 
+#scroller {
+    margin-top: 20px;
+}
+
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 .link-app {
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
@@ -246,7 +264,7 @@ h2 {
 .wallet {
     background-color: #181818;
     color: #ffffff;
-    border: solid #ff6800 4.5px;
+    border: solid #aa9414 4.5px;
     margin: 5%;
 }
 
@@ -263,21 +281,3 @@ h2 {
     margin: 10px auto;
 }
 
-
-
-@media screen and (max-width: 600px) {
-    .nav-element {
-        font-size: 14px;
-        margin: 0;
-    }
-
-    .container {
-        width: 70vw;
-    }
-
-    .apps {
-        font-size: 52px;
-        width: 70vw;
-    }
-
-}
