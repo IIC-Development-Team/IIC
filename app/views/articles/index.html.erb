@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Articles</h1>
+
+<div id="articles">
+  <% @articles.each do |article| %>
+    <span style="font-size: 24px; font-family: 'Bebas Neue', cursive;"><%= article.title %></span> | <%= link_to "Show this article", article, class: 'link-app' %> <br>
+  <% end %>
+</div>
+
+<% if user_signed_in? %>
+  <%= link_to "New article", new_article_path %>
+<% end %>

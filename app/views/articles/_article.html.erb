@@ -1,0 +1,15 @@
+<div id="<%= dom_id article %>">
+  <p>
+    <h1><%= article.title %></h1>
+  </p>
+
+  <p>
+    <%= article.body.html_safe %>
+  </p>
+
+  <p>
+    <strong>Author:</strong>
+    <%= article.author %>
+  </p>
+
+</div>

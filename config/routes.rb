@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :articles
   resources :wallets
-  devise_for :users
   resources :applications
+  devise_for :users
   root  'home#index'
   get   'home/about'
   get   'home/donate'

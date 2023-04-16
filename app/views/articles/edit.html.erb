@@ -1,0 +1,21 @@
+
+<%if user_signed_in?%>
+<h1>Editing article</h1>
+
+<%= render "form", article: @article %>
+
+<br>
+
+<div>
+  <%= link_to "Show this article", @article %> |
+  <%= link_to "Back to articles", articles_path %>
+</div>
+
+<%else%>
+    <div class="container">
+        Your are currently not logged into Administrator accout.
+        Only Administrator accounts can acces these pages. <br>
+
+        <%= link_to "Log in", new_user_session_url, class: 'link-app' %>
+    </div>
+<%end%>

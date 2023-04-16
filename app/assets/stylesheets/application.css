@@ -124,7 +124,7 @@ h2 {
 }
 
 .block > input {
-    border: solid #aa9414 2px;
+    border: solid #ff6800 2px;
     border-radius: 10px;
     margin: 10px auto;
 }
@@ -132,7 +132,7 @@ h2 {
 .button {
     margin: 20px;
     border-radius: 30px;
-    border: solid #aa9414 1.5px;
+    border: solid #ff6800 1.5px;
     padding: 10px;
     cursor: pointer;
     background-color: #c0c0c060;
@@ -142,7 +142,7 @@ h2 {
 .button:hover {
     cursor: default;
     background-color: #616161;
-    color: #aa9414;
+    color: #ff6800;
 }
 
 .form-control {
@@ -234,7 +234,7 @@ h2 {
 .link-app {
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
-    color: #998826;
+    color: #ff6800;
     text-decoration: none;
 }
 
@@ -246,7 +246,7 @@ h2 {
 .wallet {
     background-color: #181818;
     color: #ffffff;
-    border: solid #aa9414 4.5px;
+    border: solid #ff6800 4.5px;
     margin: 5%;
 }
 
