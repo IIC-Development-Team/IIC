@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 html, body {
     background-color: #0f0f0f;
@@ -7,7 +8,8 @@ html, body {
     width: 100vw;
     line-height: 30px;
     margin: 0px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
 }
 
 nav {
@@ -35,11 +37,12 @@ nav {
 }
 
 #IIC-header {
-    font-size: 42px;
+    font-size: 58px;
     color: #ff6800;
     margin: 250px auto;
     text-transform: uppercase;
     line-height: 5px;
+    
 }
 
 #IIC-header > p {
@@ -56,9 +59,14 @@ nav {
     height: 1080px;
 }
 
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
 h2 {
     font-size: 32px;
     color: #ff6800;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .container {
@@ -75,17 +83,6 @@ h2 {
     width: 500px;
     border-radius: 30px;
     padding: 20px;
-}
-
-.apps {
-    font-size: 86px;
-    margin: 20px auto;
-    width: 500px;
-    border-radius: 30px;
-    padding: 20px;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 3px;
-    font-weight: bolder;
 }
 
 #left, #right {
@@ -133,18 +130,15 @@ h2 {
 .button {
     margin: 20px;
     border-radius: 30px;
-    border: solid #ff6800 1.5px;
+    color: #ff6800;
     padding: 10px;
     cursor: pointer;
-    background-color: #c0c0c060;
     font-size: 18px;
+    background: transparent;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.button:hover {
-    cursor: default;
-    background-color: #616161;
-    color: #aa9414;
-}
 
 .form-control {
     height: 100%;
@@ -156,11 +150,11 @@ h2 {
 }
 
 .app {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Nunito', sans-serif;
     width: 41vw;
     height: 250px;
     border-radius: 25px;
-    font-size: 24px;
+    font-size: 16px;
     background-color: #181818;
     color: #ffffff;
 }
@@ -223,12 +217,17 @@ h2 {
     float: left;
     text-align: left;
     margin: 30px;
+    line-height: 20px;
 }
 
 .image {
     width: 100%;
     height: 100%;
     border-radius: 25px 0 0 25px;
+}
+
+.author {
+    font-size: 24px;
 }
 
 #scroller {
@@ -262,10 +261,20 @@ h2 {
 }
 
 .wallet {
-    background-color: #181818;
     color: #ffffff;
-    border: solid #aa9414 4.5px;
-    margin: 5%;
+    width: 300px;
+}
+
+#wallets {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px auto;
+    width: 700px;
+}
+
+#qr {
+    width: 215px;
+    aspect-ratio: 1;
 }
 
 .footer {
@@ -281,3 +290,80 @@ h2 {
     margin: 10px auto;
 }
 
+@media screen and (max-width: 1464px) {
+    body {
+      font-size: 14px;
+      width: 100vw;
+      margin: 0;
+    }
+    #IIC-header {
+        font-size: 24px;
+        color: #ff6800;
+        margin: 250px auto;
+        text-transform: uppercase;
+        line-height: 5px;
+        
+    }
+    
+    #IIC-header > p {
+        color: #fff;
+        font-size: 16px;
+        text-transform: none;
+    }
+
+    #applications {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        gap: 50px 110px;
+        position: relative;
+    }
+
+    #search {
+        width: 80vw;
+    }
+
+    .app {
+        width: 90vw;
+        height: 100px;
+        position: relative;
+    }
+
+    #left, #right {
+        float: none;
+        width: 80vw;
+        margin: auto;
+    }
+    #wallets {
+        display: block;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .wallet {
+        margin-top: 100px;
+    }
+    .app-left {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    
+    .app-right {
+        width: 60%;
+        height: 100%;
+        float: left;
+        text-align: left;
+        z-index: 100;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    .author {
+        font-size: 16px;
+    }
+  }

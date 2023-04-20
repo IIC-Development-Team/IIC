@@ -18,7 +18,7 @@
       <%= form_tag(home_search_path, :method => "get") do %>
     <div class="input-group">
       <%= search_field_tag :search, params[:search], placeholder: "Title ", class: "form-control" %>
-      <%= button_tag "Search for application", :class => 'btn btn-info glyphicon glyphicon-search', :title => nil %>
+      <%= button_tag "Search for application", :class => 'btn button btn-info glyphicon glyphicon-search', :title => nil %><br>
     </div>
   <% end %>
   </div><br>
@@ -30,16 +30,16 @@
                 <%= image_tag application.img, class:"image"%>
               </div>
               <div class="app-right">
-                <strong><%= application.title %></strong><br>
-                <%= application.author %><br>
-                <%= application.rd %><br><br>
+                <strong class="author"><%= application.title %></strong><br>
+                <div class="mobile-hide"><%= application.author %><br></div>
+                <%= application.rd %><br>
                 Status: 
                 <% if application.cs == true %>
-                <span style="color: green"> Cracked </span>
+                <span style="color: green"><strong> Cracked </strong></span>
                 <%else%>
-                <span style="color: red"> Not cracked yet </span>
+                <span style="color: red"><strong> Not cracked yet </strong></span>
                 <%end%><br>
-                Crack: <%= application.ca %>
+                <div class="mobile-hide">Crack: <%= application.ca %></div>
               </div>
             </div>
           <%end%>
