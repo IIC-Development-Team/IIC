@@ -7,6 +7,8 @@ class HomeController < ApplicationController
     Usr.create(:browser => client.name, :os => client.os_name, :dev_type => client.device_type)
 
     @applications = Application.all
+
+    @usrs = Usr.all
   end
 
   def clients
