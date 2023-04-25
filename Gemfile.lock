@@ -85,7 +85,10 @@ GEM
     childprocess (4.1.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
+    csv (3.2.6)
     debug (1.6.3)
+      irb (>= 1.3.6)
+      reline (>= 0.3.1)
     device_detector (1.1.0)
     devise (4.8.1)
       bcrypt (~> 3.0)
@@ -102,6 +105,9 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    io-console (0.6.0)
+    irb (1.6.4)
+      reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -173,6 +179,8 @@ GEM
       zeitwerk (~> 2.5)
     rake (13.0.6)
     regexp_parser (2.6.1)
+    reline (0.3.3)
+      io-console (~> 0.5)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -229,6 +237,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  csv
   debug
   device_detector (~> 1.1)
   devise (~> 4.8, >= 4.8.1)

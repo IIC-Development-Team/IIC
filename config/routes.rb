@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   get   'wallet/control', to: "wallets#control"
   get   'home/control'
   get   'home/clients'
+  get   'export', to: "home#export", as:'export'
 end
