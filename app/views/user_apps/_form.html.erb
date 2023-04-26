@@ -1,0 +1,57 @@
+<%= form_with(model: user_app) do |form| %>
+  <% if user_app.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_app.errors.count, "error") %> prohibited this user_app from being saved:</h2>
+
+      <ul>
+        <% user_app.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :author, style: "display: block" %>
+    <%= form.text_field :author %>
+  </div>
+
+  <div>
+    <%= form.label :rd, style: "display: block" %>
+    <%= form.date_field :rd %>
+  </div>
+
+  <div>
+    <%= form.label :ca, style: "display: block" %>
+    <%= form.text_field :ca %>
+  </div>
+
+  <div>
+    <%= form.label :cs, style: "display: block" %>
+    <%= form.check_box :cs %>
+  </div>
+
+  <div>
+    <%= form.label :img, style: "display: block" %>
+    <%= form.text_field :img %>
+  </div>
+
+  <div>
+    <%= form.label :size, style: "display: block" %>
+    <%= form.text_field :size %>
+  </div>
+
+  <div>
+    <%= form.label :app_type, style: "display: block" %>
+    <%= form.number_field :app_type %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
