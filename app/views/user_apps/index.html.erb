@@ -2,13 +2,37 @@
 
 <h1>User apps</h1>
 
-<div id="user_apps">
-  <% @user_apps.each do |user_app| %>
-    <%= render user_app %>
-    <p>
-      <%= link_to "Show this user app", user_app %>
-    </p>
-  <% end %>
+<%= link_to "New user app", new_user_app_path, class: 'link-app' %> <br>
+Waitaing for approval: <br>
+<%if user_signed_in?%>
+<div id="applications">
+    <% @user_apps.each_slice(3) do |user_apps| %>
+          <%- user_apps.each do |user_app| %>
+            <div class="app">
+              <div class="app-left">
+                <%= image_tag user_app.img, class:"image"%>
+              </div>
+              <div class="app-right">
+                <strong class="author"><%= user_app.title %></strong><br>
+                <div class="mobile-hide"><%= user_app.author %><br></div>
+                <%= user_app.rd %><br>
+                Status: 
+                <% if user_app.cs == true %>
+                <span style="color: green"><strong> Cracked </strong></span>
+                <%else%>
+                <span style="color: red"><strong> Not cracked yet </strong></span>
+                <%end%><br>
+                <div class="mobile-hide">Crack: <%= user_app.ca %></div>
+                <%= button_to 'Transfer Record', transfer_record_user_app_url(user_app), method: :post%>
+              </div>
+            </div>
+          <%end%>
+    <%end%>
 </div>
-
-<%= link_to "New user app", new_user_app_path %>
+<%else%>
+    <% @user_apps.each_slice(3) do |user_apps| %>
+          <%- user_apps.each do |user_app| %>
+            <%= user_app.title%> by <%= user_app.author%> <br>
+          <%end%>
+    <%end%>
+<%end%>

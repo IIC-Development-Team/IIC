@@ -12,43 +12,44 @@
   <% end %>
 
   <div>
-    <%= form.label :title, style: "display: block" %>
+    Software title:
     <%= form.text_field :title %>
   </div>
 
   <div>
-    <%= form.label :author, style: "display: block" %>
+    Software author: 
     <%= form.text_field :author %>
   </div>
 
   <div>
-    <%= form.label :rd, style: "display: block" %>
+    Release date: 
     <%= form.date_field :rd %>
   </div>
 
   <div>
-    <%= form.label :ca, style: "display: block" %>
+    Crack author: 
     <%= form.text_field :ca %>
   </div>
 
   <div>
-    <%= form.label :cs, style: "display: block" %>
+    Cracked: 
     <%= form.check_box :cs %>
   </div>
 
   <div>
-    <%= form.label :img, style: "display: block" %>
+    Image URL:
     <%= form.text_field :img %>
   </div>
 
   <div>
-    <%= form.label :size, style: "display: block" %>
+    Game size (GB): 
     <%= form.text_field :size %>
   </div>
 
   <div>
-    <%= form.label :app_type, style: "display: block" %>
+    Software type:
     <%= form.number_field :app_type %>
+    <%=link_to "Software types", home_about_path, class: 'link-app'%>
   </div>
 
   <div>

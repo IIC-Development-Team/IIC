@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :user_apps
+  resources :user_apps do
+    member do
+      post 'transfer_record'
+    end
+  end
+  
   resources :articles
   resources :wallets
   resources :applications

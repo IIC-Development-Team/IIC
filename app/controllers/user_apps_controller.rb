@@ -57,6 +57,17 @@ class UserAppsController < ApplicationController
     end
   end
 
+  def transfer_record
+    record_to_transfer = UserApp.find(params[:id])
+    new_record = Application.new(record_to_transfer.attributes.except('id', 'created_at', 'updated_at'))
+    if new_record.save
+      record_to_transfer.destroy
+      redirect_to new_record, notice: "Record transferred successfully"
+    else
+      redirect_to record_to_transfer, alert: "Transfer failed"
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user_app
