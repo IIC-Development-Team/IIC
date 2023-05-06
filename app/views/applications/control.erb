@@ -16,7 +16,21 @@
             <% @applications.each_slice(3) do |applications| %>
                 <%- applications.each do |application| %>
                     <div class="app">
-                    <%= application.title%>   <br> <%= link_to "Show details", application, class: 'link-app' %> 
+                        <div class="app-left">
+                            <%= image_tag application.img, class:"image"%>
+                        </div>
+                        <div class="app-right">
+                            <strong class="author"><%= link_to application.title, application, class: 'link-app' %></strong><br>
+                            <div class="mobile-hide"><%= application.author %><br></div>
+                            <%= application.rd %><br>
+                            Status: 
+                            <% if application.cs == true %>
+                            <span style="color: green"><strong> Cracked </strong></span>
+                            <%else%>
+                            <span style="color: red"><strong> Not cracked yet </strong></span>
+                            <%end%><br>
+                            <div class="mobile-hide">Crack: <%= application.ca %></div>
+                        </div>
                     </div>
                 <%end%>
             <%end%>
